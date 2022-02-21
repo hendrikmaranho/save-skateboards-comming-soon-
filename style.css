@@ -4,14 +4,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
+
+}
+h1 img{
+    width: 300px;
 
 }
 .video{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; 
     margin-bottom: 50px;
-
+   
 }
 .copyright{
     display: flex;
@@ -20,3 +24,29 @@
     font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 }
+@media screen and (max-width: 816px){
+    .container{
+        align-items: center;
+    }
+    h1 img{
+        width: 200px;
+       
+    }  
+    div.video{
+      margin: 0 -20px 30 -20px;
+      padding: 20px;
+      padding-bottom: 50%;
+      position: relative;
+    }
+    video{
+        position: absolute;
+        top: -20%;
+        left: 5%;
+        width: 90%;
+        height: 90%
+    }
+};
+
+
+
+
